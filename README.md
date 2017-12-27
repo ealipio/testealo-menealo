@@ -1,9 +1,8 @@
-## Practicing BDD with karma and Jasmine
-
 [![Build Status](https://travis-ci.org/ealipio/teste.svg?branch=master)](https://travis-ci.org/ealipio/teste)
 [![license](https://img.shields.io/github/license/ealipio/teste.svg)]()
 
-
+## test using karma, Jasmine over angularjs application
+I just playing with angularjs 1.6.7 and test functionality using jasmin and then run all test suite using karma
 ### Setup
 
 `npm i`
