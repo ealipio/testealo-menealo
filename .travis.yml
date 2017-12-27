@@ -11,9 +11,6 @@ before_install:
 script:
   - npm run test-single-run
  
- after_script:
-- process.exit()
-
 branches:
   only:
     - master
