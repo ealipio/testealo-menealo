@@ -2,7 +2,6 @@
 
 [![Build Status](https://travis-ci.org/ealipio/teste.svg?branch=master)](https://travis-ci.org/ealipio/teste)
 [![license](https://img.shields.io/github/license/ealipio/teste.svg)]()
-[![Packagist](https://img.shields.io/packagist/v/ealipio/teste.svg)]()
 
 
 ### Setup
