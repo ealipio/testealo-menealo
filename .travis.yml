@@ -11,6 +11,9 @@ before_install:
 script:
   - karma start
  
+ after_script:
+- process.exit()
+
 branches:
   only:
     - master
