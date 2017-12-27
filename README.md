@@ -6,7 +6,7 @@
 
 `npm i`
 
-`node server.js` (or use nodemon)
+`node server.js` (or you can use nodemon)
 
 ### Test
 
