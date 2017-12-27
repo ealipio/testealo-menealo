@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="try test your code buddy">
+  <meta name="author" content="eisson alipio">
+
+  <base href="/">
+
+  <title>Teste</title>
+
+  <link rel="stylesheet" href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css">
+
+</head>
+
+<body ng-app="App">
+  <nav class="navbar navbar-inverse bg-inverse mb-4">
+    <a class="navbar-brand" href="#">Teste</a>
+  </nav>
+
+  <div class="container" ui-view>
+    <p>Hello world, I am here and below you can find my friend's name:</p>
+    <div ng-controller="UsersController as vm">
+      <ul>
+          <li ng-repeat="user in vm.users">{{user.name}}</li>
+      </ul>
+    </div>
+  </div>
+  <!-- everthing js files after page loaded to be faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+
+  <script src="app.js"></script>  
+  <script src="users/users.module.js"></script>
+  <script src="users/users.factory.js"></script>
+  <script src="users/users.controller.js"></script>
+
+</body>
+
+</html>
