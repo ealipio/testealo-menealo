@@ -13,7 +13,8 @@ module.exports = function(config) {
       './app/users/users.factory.js',
       './app/users/users.controller.js',
       './app/app.js',
-      './app/users/users.factory.spec.js'
+      './app/users/users.factory.spec.js',
+      './app/users/users.controller.spec.js'
     ],
     exclude: [
     ],
