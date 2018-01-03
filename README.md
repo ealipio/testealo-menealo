@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ealipio/teste.svg?branch=master)](https://travis-ci.org/ealipio/teste)
+[![Build Status](https://travis-ci.org/ealipio/testealo-menealo.svg?branch=master)](https://travis-ci.org/ealipio/testealo-menealo)
 [![license](https://img.shields.io/github/license/ealipio/teste.svg)]()
 
 ## test using karma, Jasmine over angularjs application
