@@ -1,13 +1,13 @@
 {
   "name": "testealo-menealo",
   "version": "1.0.0",
-  "description": "Learn to test Angular code with Jasmine and Karma",
+  "description": "Learn to test Angular code with Jasmine/Karma",
   "main": "server.js",
   "scripts": {
     "test": "./node_modules/.bin/karma start --browsers Firefox --single-run",
     "start": "node server.js"
   },
-  "author": "Adam Morgan",
+  "author": "Eisson Alipio",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.1",
