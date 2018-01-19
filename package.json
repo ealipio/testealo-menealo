@@ -8,7 +8,7 @@
     "start": "node server.js"
   },
   "author": "Eisson Alipio",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.1",
     "express": "^4.13.4",
