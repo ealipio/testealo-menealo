@@ -7,7 +7,7 @@ module.exports = function(config) {
     frameworks: ['jasmine'],
     files: [
       './node_modules/angular/angular.js',
-      './node_modules/angular-ui-router/release/angular-ui-router.js',
+      './node_modules/@uirouter/angularjs/release/angular-ui-router.js',
       './node_modules/angular-mocks/angular-mocks.js',
       './app/users/users.module.js',
       './app/users/users.factory.js',
